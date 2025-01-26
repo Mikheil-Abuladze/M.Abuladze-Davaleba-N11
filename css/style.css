@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ul {
+  color: white;
+  width: 872px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 22px;
+  justify-content: space-between;
+  font-size: 12px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  column-gap: 20px;
+}
+.Hover {
+  display: inline-block;
+  padding-bottom: 1px;
+  position: relative;
+}
+.Hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.25s ease-out;
+}
+.Hover:hover::before{
+  width: 100%;
+}
+.contact{
+  background-color: white;
+  color: black;
+  padding: 3px;
+}
+h1 {
+  font-size: 30px; 
+}
+.SamiWertili {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SamiWertili2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.Wertili1 {
+  font-size: 25px;
+  color: blue;
+}
+.Wertili2 {
+  font-size: 25px;
+  color: blue;
+  opacity: 30%;
+}
+
+.Fixed1 {
+  background-color: #F9F9F9;
+  width: 70px;
+  height: 70px;
+}
+.Fixed2 {
+  background-color: #0A22F4;
+  width: 70px;
+  height: 70px;
+}
+.Fixed3 {
+  background-color: #F9F9F9;
+  width: 70px;
+  height: 70px;
+}
+section {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 150px;
+  margin-left: 150px;
+}
