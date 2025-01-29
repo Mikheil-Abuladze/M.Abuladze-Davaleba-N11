@@ -6,11 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 100%px;
 }
 .ul {
   color: white;
-  width: 872px;
+  width: 100%;
   list-style: none;
   display: flex;
   margin: 22px;
@@ -46,4 +46,31 @@
 footer {
   background-color: blue;
   color: white;
+}
+.suratebi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:1024px){
+  .logo{
+    justify-content: center;
+    size: 200%;
+    width: 500%;
+  }
+  .nav {
+    display: none;
+  }
+  .mexute{
+    display: none;
+  }
+  .p2{
+    display: none;
+  }
+  .p3{display: none;
+  }
+  .footer-contact{
+    display: none;
+  }
 }
